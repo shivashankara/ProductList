@@ -19,6 +19,12 @@ export const HeaderContainer = styled.header`
   top: 0;
   width: 100%;
   z-index: 1;
+  a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 20px;
+  }
 `;
 export const AppContainer = styled.div`
   padding: 20px;
